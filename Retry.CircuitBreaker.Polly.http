@@ -1,0 +1,6 @@
+@Retry.CircuitBreaker.Polly_HostAddress = http://localhost:5258
+
+GET {{Retry.CircuitBreaker.Polly_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
